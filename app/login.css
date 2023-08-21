@@ -1,0 +1,121 @@
+
+
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+	transition: all 0.3s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #FED766;	
+}
+
+
+.input-container input:focus ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+.main{
+    height:100vh
+}
+
+/* Button */
+
+.std-btn{
+    position: relative;
+    height: 2.4rem;
+    width: 10rem !important;
+ 
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: #0d0d0d;
+    overflow: hidden;
+    transition: 1s;
+    border-color: #FED766;
+  }
+ 
+
+  .std-btn:before, .std-btn:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    filter: blur(30px);
+    opacity: 0.4;
+    transition: 0.6s;
+  }
+  .std-btn:before{
+    width: 60px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+  .std-btn:after{
+    width: 30px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+  .std-btn:hover:before,
+  .std-btn:hover:after{
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+  }
+  .std-btn:hover{
+    color: #f2f2f2;
+  }
+  .std-btn:hover:first-child{
+    background: #FED766;
+    color:#272727
+  }
+
+
+
+.b-n{
+  border: 2px solid #3498db;
+  animation: border-color-transition 3s infinite alternate;
+}
+
+@keyframes border-color-transition {
+  0% {
+    border-color: #fce08d;
+  }
+  50%{
+    border-color:#c39d2e
+  }
+  100% {
+    border-color: #755e12;
+  }
+}
+.shadow-mustard{
+    box-shadow: 0px 0px 10px #FED766;
+}
+.shadow-black{
+    box-shadow: 10px 10px 10px black;
+}
+
+
+

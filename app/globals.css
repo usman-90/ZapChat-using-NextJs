@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+.x-font{
+  font-family: 'Eagle Lake', cursive !important;
+}
+
+.black {
+  color: #272727;
+}
+
+.bg-black {
+  background-color: #272727;
+}
+.mustard{
+  color: #FED766;
+}
+.mat-black{
+  background-color: #1c1c1d !important;
+}
+.bg-mustard{
+  background-color: #FED766;
+}
+.moonstone{
+  color: #009FB7
+}
+.dimgray{
+  color: #696773
+}
+.white{
+  color: #EFF1F3;
+}
+.bg-moonstone{
+  background-color: #009FB7
+}
+.bg-dimgray{
+  background-color: #696773
+}
+.bg-white{
+  background-color: #EFF1F3;
+}
+a{
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.s-border{
+  border-radius: 0px 50px 0px 51px !important;
+-webkit-border-radius: 0px 50px 0px 51px !important;
+-moz-border-radius: 0px 50px 0px 51px !important; 
+}
+.s1-border{
+  border-radius: 0px 25px 0px 25px !important;
+-webkit-border-radius: 0px 25px 0px 25px !important;
+-moz-border-radius: 0px 25px 0px 25px !important; 
+}
+.sx-border{
+  border-radius: 20px 0px 20px 0px !important;
+-webkit-border-radius: 20px 0px 20px 0px !important;
+-moz-border-radius: 25px 0px 25px 0px !important; 
+}
