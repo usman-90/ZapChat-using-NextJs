@@ -1,8 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import Bolt from "@/components/bolt/bolt";
-const Login = () => {
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import "@/app/loginsignup/login/login.css";
+const LoginSignupLayout = ({ children }: { children: React.ReactNode }) => {
+  console.log("server");
   return (
-    <div style={{height:"100vh"}} className="main w-100 d-flex justify-content-around flex-wrap align-items-center">
+    <div className="main w-100 d-flex justify-content-around flex-wrap align-items-center">
       <div className="ms-5 ps-5 login-heading">
         <div className="ms-5">
           <Bolt />
@@ -12,8 +15,9 @@ const Login = () => {
           Instant Conversations, Lightning-fast Chats - Welcome to ZapChat!
         </p>
       </div>
+      {children}
     </div>
   );
 };
 
-export default Login;
+export default LoginSignupLayout;
