@@ -1,0 +1,16 @@
+.w-21rem{
+	width: 21.5rem  !important;
+}
+.avatar{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.fs-6{
+	font-size: 0.9rem !important;
+}
+ .chat-container{
+	 overflow-y: auto;
+	 height: 29.3rem;
+ }
