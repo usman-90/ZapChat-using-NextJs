@@ -1,7 +1,7 @@
 import Bolt from "@/components/bolt/bolt";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "@/app/loginsignup/login/login.css";
+import "@/app/(loginsignup)/login/login.css";
 const LoginSignupLayout = ({ children }: { children: React.ReactNode }) => {
   console.log("server");
   return (
